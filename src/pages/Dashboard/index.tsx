@@ -1,10 +1,20 @@
-import React from "react";
+
+import Header from "../../components/Header";
+import { Container } from "../../components/Container/stlye";
 import { StyledDashboard } from "./style";
+import Form from "../../components/Form";
+import List from "../../components/List";
 
 const Dashboard = () => {
 	return (
 		<StyledDashboard>
-			<h1>Dashboard</h1>
+			<Header />
+			<Container>
+				<div className="mainBox">
+					<Form />
+					<List />
+				</div>
+			</Container>
 		</StyledDashboard>
 	);
 };
