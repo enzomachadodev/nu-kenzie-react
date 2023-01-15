@@ -1,14 +1,14 @@
-import { StyledTotal } from "./style"
+import { StyledTotal } from "./style";
 
 const Total = () => {
-return (
-    <StyledTotal>
-        <div>
-            <h3>Saldo:</h3>
-            <span>{`R$ ${"total"}`}</span>
-        </div>
-    </StyledTotal>
-)
-}
+	return (
+		<StyledTotal>
+			<div>
+				<h3>Saldo:</h3>
+				<span>{`R$ ${"total"}`}</span>
+			</div>
+		</StyledTotal>
+	);
+};
 
-export default Total
+export default Total;
