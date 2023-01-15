@@ -23,6 +23,7 @@ interface IGlobalContext {
 	description: string;
 	type: string;
 	value: string;
+	total: number;
 }
 export const GlobalContext = createContext({} as IGlobalContext);
 
@@ -60,6 +61,8 @@ export const GlobalProvider = ({ children }: IGlobalContextProps) => {
 		setType("");
 	};
 
+	const total = transactions.reduce((prev, elem) => prev + elem.value, 0);
+
 	return (
 		<GlobalContext.Provider
 			value={{
@@ -74,6 +77,7 @@ export const GlobalProvider = ({ children }: IGlobalContextProps) => {
 				description,
 				type,
 				value,
+				total,
 			}}
 		>
 			{children}
