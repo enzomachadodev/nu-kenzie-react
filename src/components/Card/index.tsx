@@ -11,7 +11,7 @@ const Card = (props: { e: ITransaction }) => {
 			<div className="titleBox">
 				<h3>{props.e.description}</h3>
 				<div className="valueBox">
-					<p>{`R$ ${props.e.value}`}</p>
+					<p>{`R$ ${props.e.value.toFixed(2)}`}</p>
 					<button
 						className="button-2"
 						onClick={() => {
