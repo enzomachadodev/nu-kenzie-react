@@ -9,7 +9,7 @@ const LandingPage = () => {
 				<div className="landingBox">
 					<div className="landingText">
 						<h3>
-							<strong>Nu</strong> Kenzie
+							<strong>Nu</strong> Finance
 						</h3>
 						<h1>Centralize o controle das suas finanças</h1>
 						<span>de forma rápida e segura</span>

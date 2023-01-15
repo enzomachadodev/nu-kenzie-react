@@ -1,11 +1,14 @@
 import GlobalStyle from "./styles/global";
 import RoutesMain from "./routes";
+import GlobalProvider from "./context";
 
 const App = () => {
 	return (
 		<>
 			<GlobalStyle />
-			<RoutesMain />
+			<GlobalProvider>
+				<RoutesMain />
+			</GlobalProvider>
 		</>
 	);
 };

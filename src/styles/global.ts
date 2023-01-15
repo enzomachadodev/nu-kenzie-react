@@ -16,8 +16,9 @@ const GlobalStyle = createGlobalStyle`
 
 	--black: #000000;
     
-    --sucess: #82C91E;
-    --error: #F03E3E;
+    --green: #82C91E;
+    --red: #F03E3E;
+	
     --warning: #FCC419;
     
     --font: 'Nunito', sans-serif;
@@ -114,7 +115,12 @@ span {
 .active {
 	background-color: var(--color-primary);
 	color: var(--white);
-} 
+}
+
+.active:hover {
+	background-color: var(--color-primary-focus);
+}
+
 `;
 
 export default GlobalStyle;

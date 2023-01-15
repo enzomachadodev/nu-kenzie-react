@@ -5,7 +5,7 @@ const Header = () => {
 		<StyledHeader>
 			<div className="navContainer">
 				<h1>
-					<span>Nu</span> Kenzie
+					<span>Nu</span> Finance
 				</h1>
 				<Link to={"/"} className="button-2">Sair</Link>
 			</div>

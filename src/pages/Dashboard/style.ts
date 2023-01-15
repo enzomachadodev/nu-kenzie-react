@@ -20,4 +20,16 @@ export const StyledDashboard = styled.div`
 			flex-direction: column;
 		}
 	}
+
+	.formBox {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		width: 100%;
+		max-width: 400px;
+
+		@media (max-width:768px) {
+        max-width: unset;
+    }
+	}
 `;

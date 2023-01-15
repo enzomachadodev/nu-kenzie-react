@@ -17,6 +17,19 @@ export const StyledList = styled.div`
         flex-direction: row;
         align-items: center;
         gap: 1rem;
+
+       
+            button:nth-child(1){
+                
+            }
+
+            button:nth-child(2){
+                
+            }
+
+            button:nth-child(3){
+                
+            }
     }
 
     ul {

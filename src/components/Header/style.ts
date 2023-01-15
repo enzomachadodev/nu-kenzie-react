@@ -8,6 +8,9 @@ export const StyledHeader = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 2rem;
+	position: sticky;
+	background-color: var(--white);
+	z-index: 100;
 
 	-webkit-box-shadow: 0px 8px 20px 0px rgba(176, 176, 176, 1);
 	-moz-box-shadow: 0px 8px 20px 0px rgba(176, 176, 176, 1);
